@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "NorseBold";
+    src: url(./assets/Norse-Bold.otf) format("opentype");
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+form{
+    width:950px;
+    height: 700px;
+    display: flex;
+   
+    background-color: white;
+}
+
+.form_top{
+    height:33%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.form_left, .form_right{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.form_center{
+    height:100%;
+    width: 100%;
+    display:flex;
+    gap: 15px;
+}
+
+
+.logo {
+    font-family: "NorseBold";
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.left_items{
+    width: 430px;
+    overflow: hidden;
+
+}
+
+
+.right_items{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.form_inputs {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 35px;
+    height: 33%;
+    padding-top: 5%;
+    -webkit-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+z-index: 2;
+position: relative;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    height: 100%;
+    width: auto;
+}
+
