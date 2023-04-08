@@ -9,6 +9,18 @@ body{
     justify-content: center;
     background-color: grey;
 }
+
+.banner{
+    width: inherit;
+    position: absolute;
+    height: 150px;
+    top: 150px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.306);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 form{
     width:950px;
     height: 700px;
@@ -38,6 +50,7 @@ form{
 
 .logo {
     font-family: "NorseBold";
+    color: white;
 }
 .items{
     display: flex;
@@ -47,7 +60,10 @@ form{
 .left_items{
     width: 430px;
     overflow: hidden;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
