@@ -33,6 +33,14 @@ form{
     height:33%;
     width: 100%;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.par{
+    width: 75%;
 }
 .form_left, .form_right{
     display: flex;
