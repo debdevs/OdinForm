@@ -4,7 +4,7 @@ let password_validate = document.getElementById("password_validate")
 function onSubmit (){
     console.log(document.getElementById("password"))
     if (password_validate != password){
-        alert("Enter the correct password")
+        alert("Passwords do not match")
         console.log("op3")
     }
 }
