@@ -1,10 +1,10 @@
-let password = document.getElementById("password").value
-let password_validate = document.getElementById("password_validate").value
+let password = document.getElementById("password")
+let password_validate = document.getElementById("password_validate")
 
 function onSubmit (){
-    console.log("op")
+    console.log(document.getElementById("password"))
     if (password_validate != password){
         alert("Enter the correct password")
-        console.log("op")
+        console.log("op3")
     }
 }
