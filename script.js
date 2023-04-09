@@ -6,5 +6,10 @@ function onSubmit (){
     if (password_validate != password){
         alert("Passwords do not match")
         console.log("op3")
+        password.style.borderColor = "red"
+        password_validate.style.borderColor = "red"
+    } else{
+        password.style.borderColor = "#E5E7EB"
+        password_validate.style.borderColor = "#E5E7EB"  
     }
 }
